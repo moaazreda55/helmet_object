@@ -1,0 +1,12 @@
+stages:
+     
+  train:
+    cmd: papermill train.ipynb ex_notebook/train.ipynb
+
+    deps:
+      - safety-helmet-1\data.yaml
+      - param.yml
+      - yolo11n.pt
+    outs:
+      - runs
+    
