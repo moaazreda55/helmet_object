@@ -3,3 +3,4 @@ safety-helmet-1
 runs
 mlruns
 ex_notebook
+*.pyc
