@@ -1,9 +1,9 @@
 lr:
-    min: 0.01
-    max: 0.1
+    min: 0.04
+    max: 0.08
     
 dp:
-    min: 0.1
+    min: 0.3
     max: 0.6
     
-batch_option: [16,32]
+batch_option: [10,8]
